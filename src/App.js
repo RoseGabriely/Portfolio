@@ -14,6 +14,24 @@ function App() {
             <a href="projects.html">Projects</a>
           </nav>
         </header>
+        <section class="page">
+          <section class="about">
+            <div class="bigImage"></div>
+            <div class="bio">
+              <h2 class="name">About</h2>
+              <p class="journey">
+                This is a portfolio of my solo projects, along with projects I
+                worked on with various teams during my schooling. They include
+                front-end, back-end and full-stack work in React and Node which
+                also incorporate other libraries and frameworks.
+              </p>
+            </div>
+          </section>
+          <footer>
+            <p class="question">Like what you see?</p>
+            <button class="contact">Contact Me</button>
+          </footer>
+        </section>
       </body>
     </div>
   );
