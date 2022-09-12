@@ -1,0 +1,11 @@
+.About {
+  color: #a8bcf3;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .journey {
+    text-align: start;
+  }
+}
