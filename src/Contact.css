@@ -1,0 +1,9 @@
+.Contact {
+  color: #a8bcf3;
+  padding: 1.5rem;
+  line-height: 1.5;
+}
+.Contact a {
+  text-decoration: none;
+  color: #a8bcf3;
+}
