@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Project from "./project";
 
 const projArr = [
   {
@@ -58,7 +59,18 @@ function App() {
             </p>
           </div>
         </section>
-
+        <div className="gallery">
+          {projArr.map((project) => {
+            return (
+              <Project
+                key={project.key}
+                image={project.image}
+                link={project.link}
+                caption={project.caption}
+              />
+            );
+          })}
+        </div>
         <footer>
           <p className="question">Like what you see?</p>
           <button className="contact">Contact Me</button>
