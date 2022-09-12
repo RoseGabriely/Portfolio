@@ -1,38 +1,182 @@
-.App {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* prettier-ignore */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* global */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 1.1rem;
+}
+html {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+body {
+  width: 50rem;
+}
+/* title */
+.title {
+  background-color: #fad2e1;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #a8bcf3;
+  font-size: 1.5rem;
+}
+/* header */
+header {
+  background-color: #fff1e6;
+  height: 8.875rem;
+}
+h1 {
+  padding: 1.5rem;
+  color: #a8bcf3;
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: #a8bcf3;
+  border: 0.1rem solid black;
+  padding: 0.6rem;
+  background-color: #fad2e1;
+  transition: 0.3s;
+  width: 5rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a:hover {
+  color: #fad2e1;
+  background-color: #a8bcf3;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* about */
+.page {
+  background-color: #eae4e9;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: stretch;
 }
-
-.App-link {
-  color: #61dafb;
+.bigImage {
+  background: url(https://picsum.photos/400/280);
+  height: 17.5rem;
+  width: 25rem;
+  margin: 1.5rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bio {
+  width: 25rem;
+  padding: 2rem;
+  color: #a8bcf3;
+}
+.name {
+  font-size: 1.6rem;
+}
+.journey {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+}
+/* project */
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.galleryItem {
+  width: 20rem;
+  margin: 1.5rem;
+}
+.caption {
+  margin-top: 0.5rem;
+  color: #a8bcf3;
+  text-align: center;
+}
+.galleryItem img:hover {
+  transition: 0.3s;
+  opacity: 0.4;
+}
+/* footer */
+footer {
+  background-color: #fff1e6;
+  text-align: center;
+  color: #a8bcf3;
+  padding: 1rem;
+  height: 8rem;
+}
+.question {
+  font-size: 1.5rem;
+}
+.contact {
+  color: #a8bcf3;
+  background-color: #fad2e1;
+  padding: 0.6rem;
+  width: 8rem;
+  margin-top: 1rem;
+}
+.contact:hover {
+  transition: 0.3s;
+  color: #fad2e1;
+  background-color: #a8bcf3;
 }
