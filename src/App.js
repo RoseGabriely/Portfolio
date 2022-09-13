@@ -6,6 +6,10 @@ import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 
+import { FaEnvelope } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 function App() {
   return (
     <div className="App">
@@ -28,7 +32,17 @@ function App() {
         </Routes>
         <footer>
           <p className="question">Like what you see?</p>
-          <button className="contact">Contact Me</button>
+          <div className="contact">
+            <a href="mailto: rosegabriely14@gmail.com">
+              <FaEnvelope />
+            </a>
+            <a href="tel:8577070062">
+              <FaPhone />
+            </a>
+            <a href="https://www.linkedin.com/in/rosegabriely/">
+              <FaLinkedin />
+            </a>
+          </div>
         </footer>
       </section>
     </div>
