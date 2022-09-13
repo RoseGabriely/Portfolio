@@ -60,6 +60,13 @@ table {
 }
 
 /* global */
+:root {
+  --background: lightgray;
+  --header-footer-background: #4a525a;
+  --page-background: #24272b;
+  --accent-color: #003049;
+  --text-color: #d4d6b9;
+}
 * {
   box-sizing: border-box;
   max-width: 100%;
@@ -68,29 +75,29 @@ table {
 html {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: var(--background);
 }
 body {
   width: 50rem;
 }
 /* title */
 .title {
-  background-color: #fad2e1;
+  background-color: var(--accent-color);
   width: 100%;
   text-align: center;
   padding: 1rem;
   box-sizing: border-box;
-  color: #a8bcf3;
+  color: var(--text-color);
   font-size: 1.5rem;
 }
 /* header */
 header {
-  background-color: #fff1e6;
+  background-color: var(--header-footer-background);
   height: 8.875rem;
 }
 h1 {
   padding: 1.5rem;
-  color: #a8bcf3;
+  color: var(--text-color);
   font-size: 2rem;
 }
 nav {
@@ -100,21 +107,21 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #a8bcf3;
+  color: var(--text-color);
   border: 0.1rem solid black;
   padding: 0.6rem;
-  background-color: #fad2e1;
+  background-color: var(--accent-color);
   transition: 0.3s;
   width: 5rem;
   text-align: center;
 }
 nav a:hover {
-  color: #fad2e1;
-  background-color: #a8bcf3;
+  color: var(--accent-color);
+  background-color: var(--text-color);
 }
 /* about */
 .page {
-  background-color: #eae4e9;
+  background-color: var(--page-background);
 }
 .about {
   display: flex;
@@ -129,7 +136,7 @@ nav a:hover {
 .bio {
   width: 25rem;
   padding: 2rem;
-  color: #a8bcf3;
+  color: var(--text-color);
 }
 .name {
   font-size: 1.6rem;
@@ -150,7 +157,7 @@ nav a:hover {
 }
 .caption {
   margin-top: 0.5rem;
-  color: #a8bcf3;
+  color: var(--text-color);
   text-align: center;
 }
 .galleryItem img:hover {
@@ -159,7 +166,7 @@ nav a:hover {
 }
 /* footer */
 footer {
-  background-color: #fff1e6;
+  background-color: var(--header-footer-background);
   text-align: center;
   padding: 1rem;
   height: 8rem;
@@ -169,7 +176,7 @@ footer {
 }
 .question {
   font-size: 1.5rem;
-  color: #a8bcf3;
+  color: var(--text-color);
 }
 .contact {
   padding: 0.6rem;
@@ -177,6 +184,10 @@ footer {
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
+}
+.contact a:hover {
+  transition: 0.3s;
+  opacity: 0.4;
 }
 
 @media (max-width: 800px) {
