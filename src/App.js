@@ -9,6 +9,7 @@ import Projects from "./Projects";
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function App() {
   return (
@@ -31,16 +32,31 @@ function App() {
           <Route path="projects" element={<Projects />} />
         </Routes>
         <footer>
-          <p className="question">Like what you see?</p>
+          <p className="question">Contact me!</p>
           <div className="contact">
-            <a href="mailto: rosegabriely14@gmail.com">
+            <a
+              href="mailto: rosegabriely14@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaEnvelope />
             </a>
             <a href="tel:8577070062">
               <FaPhone />
             </a>
-            <a href="https://www.linkedin.com/in/rosegabriely/">
+            <a
+              href="https://www.linkedin.com/in/rosegabriely/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/RoseGabriely"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
             </a>
           </div>
         </footer>
