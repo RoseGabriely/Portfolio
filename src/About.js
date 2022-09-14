@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="About">
       <h2 className="name">About</h2>
-      <p className="journey">
+      <p className="about">
         These projects are from various stages of my education. They showcase
         technologies and tasks I've gained experience in. Through trial and
         error throughout these projects, I've come to value certain conventions.

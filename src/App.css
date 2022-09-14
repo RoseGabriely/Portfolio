@@ -119,11 +119,11 @@ nav a:hover {
   color: var(--accent-color);
   background-color: var(--text-color);
 }
-/* about */
+/* description */
 .page {
   background-color: var(--page-background);
 }
-.about {
+.description {
   display: flex;
   align-items: stretch;
 }
@@ -209,11 +209,11 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  /* about */
+  /* description */
   .bigImage {
     margin: 1.5rem;
   }
-  .about {
+  .description {
     flex-direction: column;
     align-items: center;
   }
