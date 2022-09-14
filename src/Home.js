@@ -5,15 +5,15 @@ import projArr from "./Data";
 function Home() {
   return (
     <div className="Home">
-      <section className="about">
+      <section className="description">
         <div className="bigImage"></div>
         <div className="bio">
-          <h2 className="name">About</h2>
+          <h2 className="name">Description</h2>
           <p className="journey">
-            A portfolio of solo and collaborative projects worked on with
-            various teams. Demonstrate front-end, back-end and full-stack work
-            in React and Node while also incorporating other libraries and
-            frameworks.
+            A portfolio of solo and collaborative projects developed with
+            various teams. The projects demonstrate a collection of front-end
+            and back-end work in React and Node while incorporating other
+            libraries and frameworks.
           </p>
         </div>
       </section>
