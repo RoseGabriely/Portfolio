@@ -1,39 +1,35 @@
 const projArr = [
   {
     key: 1,
-    image: "https://i.ibb.co/3FJczLD/download.png",
-    link: "https://github.com/RoseGabriely/Portfolio",
+    image: "https://i.ibb.co/D95jp4L/image.png",
+    link: "https://github.com/RoseGabriely/tic-tac-toe",
+    title: "Tic-Tac-Toe",
     caption:
-      "Front-end portfolio which displays an about section, projects, and contact information. Demonstrates responsive design, semantic HTML, and high contrast for accessibility purposes. Built using React.js, CSS, React Router, and Font Awesome.",
+      "Front-end tic-tac-toe game built in React using React's state management system to create dynamic updates to the game board, player turns, and victory/draw messages. CSS styling demonstrates responsive layouts and creates visually appealing interfaces.",
   },
   {
     key: 2,
-    image: "https://i.ibb.co/7VRF1wX/download.png",
-    link: "https://github.com/Build-Week-Water-My-Plantz/front-end",
+    image: "https://i.ibb.co/s1Gx3v5/image.png",
+    link: "https://github.com/RoseGabriely/African-Marketplace",
+    title: "African Marketplace",
     caption:
-      "Front-end work on a website that allows users to register, log in and keep track of their plants' descriptions and watering schedules. Built using: React.js, Redux.js, Yup, Axios Styled-Components, and CSS.",
+      "Back-end API for an online African Marketplace enables business owners to register, sign in and list their products at various market locations. Built using Node.js and Express.js for server-side development, Knex.js for database querying, bcrypt for password hashing, and JSON Web Token for authentication.",
   },
-
   {
     key: 3,
-    image: "https://i.ibb.co/9Tr6Vt1/download.png",
-    link: "https://github.com/RoseGabriely/coder-heroes-fe",
+    image: "https://i.ibb.co/Kw5F89M/image.png",
+    link: "https://github.com/Build-Week-Water-My-Plantz/front-end",
+    title: "Water My Plants",
     caption:
-      "Front-end of CoderHeroes, a booking website for parents to enroll their children in coding courses. Contributions: implemented course creation form, updated meta data, added website icon, cleaned up code, and facilitated implementation of redux. Built using: React.js, Redux.js, Less, Okta, and Axios.",
+      "Front-end website that enables users to register, log in, and manage their plants. Showcases an interactive user interface with backend API integration through the use of Axios for server requests, React and Redux for state management, Yup for form validation and Styled-Components/CSS.",
   },
   {
     key: 4,
-    image: "https://i.ibb.co/9Tr6Vt1/download.png",
+    image: "https://i.ibb.co/LZnCThL/image.png",
     link: "https://github.com/RoseGabriely/coder-heroes-be",
+    title: "Coder Heroes",
     caption:
-      "Back-end of CoderHeroes, a booking website for parents to enroll their children in coding courses. Contributions: fixed bugs, constructed models, cleaned up code, and oversaw implementation of security measures. Built using: Node.js, Express.js, Knex.js Docker, Heroku, PostgreSQL and Okta.",
-  },
-  {
-    key: 5,
-    image: "https://i.ibb.co/whjN8Ks/download.png",
-    link: "https://github.com/RoseGabriely/unit4buildweek",
-    caption:
-      "Back-end API for an online African Marketplace which allows business owners to register and sign in as well as list products and market locations. Built using: Node.js, Express.js, Knex.js, bcrypt, and JSON Web Token.",
+      "Back-end of CoderHeroes an online platform that allows parents to register their children for coding courses. Contributions include bug fixes, model construction, improving code quality, and overseeing the implementation of security measures. Utilizes variety of technologies such as Node, Express, Knex, Docker, Heroku, PostgreSQL, and Okta to create a scalable and secure platform.",
   },
 ];
 
