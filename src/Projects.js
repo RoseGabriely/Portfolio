@@ -1,10 +1,18 @@
 import React from "react";
 import projArr from "./Data";
 import Project from "./Project";
+import "./Projects.css";
+import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <div className="Projects">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      className="Projects"
+    >
       <div className="gallery">
         {projArr.map((project) => {
           return (
@@ -17,7 +25,7 @@ function Projects() {
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
