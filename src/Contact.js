@@ -1,32 +1,23 @@
 import React from "react";
 import "./Contact.css";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <div className="Contact">
-      <p>Email: rosegabriely14@gmail.com</p>
-      <p>Phone Number: 857-707-0062</p>
-      <p>
-        Linkedin:{" "}
-        <a
-          href="https://www.linkedin.com/in/rosegabriely/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          www.linkedin.com/in/rosegabriely/
-        </a>
-      </p>
-      <p>
-        Github:{" "}
-        <a
-          href="https://github.com/RoseGabriely"
-          target="_blank"
-          rel="noreferrer"
-        >
-          https://github.com/RoseGabriely
-        </a>
-      </p>
-    </div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      className="Resume"
+    >
+      <div className="embed">
+        <p>
+          <span style={{ fontWeight: "bold" }}>Resume:</span>
+        </p>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQChpVAGeg0E_wu_jNniXfWC01hkUgBwDsWNupTd145JyH-5l1-uXpbWF5p37VGTML15vbouKe87BZR/pub?embedded=true"></iframe>
+      </div>
+    </motion.div>
   );
 }
 
