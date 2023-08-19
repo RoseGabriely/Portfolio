@@ -20,6 +20,7 @@ function Projects() {
               key={project.key}
               image={project.image}
               link={project.link}
+              title={project.title}
               caption={project.caption}
             />
           );

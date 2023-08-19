@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.css";
 
 const Project = (props) => {
   return (
@@ -6,9 +7,12 @@ const Project = (props) => {
       <div className="image">
         <a href={props.link} target="_blank" rel="noreferrer">
           <img src={props.image} alt="project" />
+          <div className="hoverContent">
+            <h3>{props.title}</h3>
+            <p className="caption">{props.caption}</p>
+          </div>
         </a>
       </div>
-      <p className="caption">{props.caption}</p>
     </div>
   );
 };
