@@ -188,3 +188,11 @@ footer {
   background-color: var(--text-color);
   color: #fff;
 }
+
+/* iPads */
+@media (max-width: 840px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+  }
+}
