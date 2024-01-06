@@ -15,7 +15,10 @@ function Contact() {
         <p>
           <span style={{ fontWeight: "bold" }}>Resume:</span>
         </p>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQChpVAGeg0E_wu_jNniXfWC01hkUgBwDsWNupTd145JyH-5l1-uXpbWF5p37VGTML15vbouKe87BZR/pub?embedded=true"></iframe>
+        <iframe
+          title="resume"
+          src="https://docs.google.com/document/d/e/2PACX-1vQChpVAGeg0E_wu_jNniXfWC01hkUgBwDsWNupTd145JyH-5l1-uXpbWF5p37VGTML15vbouKe87BZR/pub?embedded=true"
+        ></iframe>
       </div>
     </motion.div>
   );
